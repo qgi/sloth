@@ -18,7 +18,8 @@ end
 
 function QBAR.SlotKeyDown(n)
    slot = getSlot(n)
-   if GetSlotBoundId(slot) == 0 or GetSlotItemCount(slot) == 0 then
+     
+   if GetSlotItemCount(slot) == 0 then
       PlaySound(EMPTY_SLOT_SOUND)
    else
       SetCurrentQuickslot(slot)
@@ -33,5 +34,4 @@ function QBAR.SlotKeyDown(n)
       end
    end
 end
-
 
