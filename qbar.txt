@@ -1,0 +1,6 @@
+## Title: qgi's Quickbar
+## APIVersion: 100003
+
+qbar.lua
+bindings.xml
+qbar.xml
