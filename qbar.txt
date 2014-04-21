@@ -3,4 +3,3 @@
 
 qbar.lua
 bindings.xml
-qbar.xml
