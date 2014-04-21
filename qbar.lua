@@ -30,7 +30,7 @@ function QBAR.SlotKeyDown(n)
       if ZO_ActionBar1:GetAlpha() == 0 then
 	 ZO_ActionBar1:SetAlpha(1)
 	 -- TODO: Should fade out after some time
-      End
+      end
    end
 end
 
