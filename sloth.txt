@@ -1,0 +1,5 @@
+## Title: Sloth - Quickslot Helper
+## APIVersion: 100003
+
+sloth.lua
+bindings.xml

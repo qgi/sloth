@@ -1,29 +1,35 @@
 <Bindings>
   <Layer name="SI_KEYBINDINGS_LAYER_GENERAL">
     <Category name="SI_KEYBINDINGS_CATEGORY_USER_INTERFACE">
-      <Action name="QBAR_SLOT_1">
-        <Down>QBAR.SlotKeyDown(1)</Down>
+      <Action name="SLOTH_PREVIOUS_SLOT">
+	<Down>SLOTH.PreviousSlotKeyDown()</Down>
       </Action>
-      <Action name="QBAR_SLOT_2">
-        <Down>QBAR.SlotKeyDown(2)</Down>
+      <Action name="SLOTH_NEXT_SLOT">
+	<Down>SLOTH.NextSlotKeyDown()</Down>
       </Action>
-      <Action name="QBAR_SLOT_3">
-        <Down>QBAR.SlotKeyDown(3)</Down>
+      <Action name="SLOTH_SLOT_1">
+        <Down>SLOTH.SlotKeyDown(1)</Down>
       </Action>
-      <Action name="QBAR_SLOT_4">
-        <Down>QBAR.SlotKeyDown(4)</Down>
+      <Action name="SLOTH_SLOT_2">
+        <Down>SLOTH.SlotKeyDown(2)</Down>
       </Action>
-      <Action name="QBAR_SLOT_5">
-        <Down>QBAR.SlotKeyDown(5)</Down>
+      <Action name="SLOTH_SLOT_3">
+        <Down>SLOTH.SlotKeyDown(3)</Down>
       </Action>
-      <Action name="QBAR_SLOT_6">
-        <Down>QBAR.SlotKeyDown(6)</Down>
+      <Action name="SLOTH_SLOT_4">
+        <Down>SLOTH.SlotKeyDown(4)</Down>
       </Action>
-      <Action name="QBAR_SLOT_7">
-        <Down>QBAR.SlotKeyDown(7)</Down>
+      <Action name="SLOTH_SLOT_5">
+        <Down>SLOTH.SlotKeyDown(5)</Down>
       </Action>
-      <Action name="QBAR_SLOT_8">
-        <Down>QBAR.SlotKeyDown(8)</Down>
+      <Action name="SLOTH_SLOT_6">
+        <Down>SLOTH.SlotKeyDown(6)</Down>
+      </Action>
+      <Action name="SLOTH_SLOT_7">
+        <Down>SLOTH.SlotKeyDown(7)</Down>
+      </Action>
+      <Action name="SLOTH_SLOT_8">
+        <Down>SLOTH.SlotKeyDown(8)</Down>
       </Action>
     </Category>
   </Layer>
