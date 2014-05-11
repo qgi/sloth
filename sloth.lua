@@ -87,12 +87,13 @@ local function setSlot(slot)
 end
 
 function SLOTH.SlotKeyDown(n)
-   slot = SLOT_MAP[n]
-
-   if slotEmpty(slot) then
-      PlaySound(EMPTY_SLOT_SOUND)
-   else
-      setSlot(slot)
+   if not IsGameCameraUIModeActive() then
+      slot = SLOT_MAP[n]
+      if slotEmpty(slot) then
+	 PlaySound(EMPTY_SLOT_SOUND)
+      else
+	 setSlot(slot)
+      end
    end
 end
 
@@ -119,11 +120,15 @@ function switchSlot(increment)
 end
 
 function SLOTH.NextSlotKeyDown()
-   switchSlot(-1)
+   if not IsGameCameraUIModeActive() then
+      switchSlot(-1)
+  end
 end
 
 function SLOTH.PreviousSlotKeyDown()
-   switchSlot(1)
+   if not IsGameCameraUIModeActive() then
+      switchSlot(1)
+   end
 end
 
 EVENT_MANAGER:RegisterForEvent(SLOTH.name, EVENT_ADD_ON_LOADED, init)
