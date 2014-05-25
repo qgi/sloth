@@ -1,6 +1,6 @@
 SLOTH = {}
 SLOTH.name = "sloth"
-SLOTH.version = "1.0.1"
+SLOTH.version = "1.1"
 SLOTH.timeline = nil
 
 local N_SLOTS = 8
